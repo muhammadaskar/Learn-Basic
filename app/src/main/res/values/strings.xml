@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Learn Basic Programming</string>
+    <string name="tentang">Aplikasi ini merupakan suatu media pembelajaran agar bisa membantu siswa dalam proses belajar, serta pada aplikasi ini tersedia fitur untuk materi, mengerjakan soal, dan permainan. Pada fitur materi tersebut menjelaskan mengenai materi Pemrograman Dasar, kedua pada fitur soal tersebut siswa diminta untuk mengerjakan soal sesuai dengan materi yang ada, dan yang terakhir fitur permainan tersebut agar siswa tidak bosan untuk melakukan belajar.</string>
+
+    <string name="kompetensi_inti">KI 3 : Memahami, menerapkan menganalisis dan mengevaluasi tentang pengetahuan faktual, konseptual, procedural dan metakognitif sesuai dengan bidang dan lingkup kajian teknik komputer dan jaringan pada tingkat teknis, spesifik, detil dan kompleks berkenaan dengan ilmu pengetahuan, teknologi, seni, budaya, dan humaniora dalam konteks pengembangan potensi diri sebagai bagian dari keluarga, sekolah, dunia kerja, warga masyarakat nasional, regional dan internasional.</string>
+
+    <string name="kompetensi_dasar">3.1.   Menerapkan alur pemrograman komputer \n4.1.   Menerapkan fungsi - fungsi pemrograman dasar java
+</string>
+
+    <string name="tujuan">3.1.1. Mampu memahami pemrograman dasar \n3.1.2. Menerapkan alur logika pemrograman komputer sesuai dengan prosedur dengan penuh tanggung jawab\n4.1.1. Membuat peta konsep alur logika pemrograman komputer dengan penuh tanggung jawab
+</string>
+</resources>

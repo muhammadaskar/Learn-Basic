@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "231911572754",
+    "firebase_url": "https://learn-basic-programming.firebaseio.com",
+    "project_id": "learn-basic-programming",
+    "storage_bucket": "learn-basic-programming.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231911572754:android:e61e9e53032a7939d9dfcb",
+        "android_client_info": {
+          "package_name": "com.askar.learnbasicprogramming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231911572754-tms0nfdde6vk06sjd2eocvpjhaib0405.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHOuiSqghikS-DnJotmw-c1eqp6CQ-6BI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231911572754-tms0nfdde6vk06sjd2eocvpjhaib0405.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

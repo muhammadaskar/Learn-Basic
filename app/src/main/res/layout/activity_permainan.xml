@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tentang"
+    tools:context=".Soal.Permainan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSatu"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/btn_permainan"
+                android:text="8"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnDua"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/btn_permainan"
+                android:text="4"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnTiga"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/btn_permainan"
+                android:text="2"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnEmpat"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/btn_permainan"
+                android:text="1"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnLima"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/btn_permainan"
+                android:text="9"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnEnam"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/btn_permainan"
+                android:text="7"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnTujuh"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/btn_permainan"
+                android:text="7"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnDelapan"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/btn_permainan"
+                android:text="6"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnSembilan"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/btn_permainan"
+                android:text="8"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Cara Bermainan"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="20sp"
+            android:textColor="#FFF"
+            android:background="@drawable/btn_next"
+            android:onClick="clickCaraMain"/>
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Keluar"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="20sp"
+            android:textColor="#FFF"
+            android:background="@drawable/kembali"
+            android:onClick="clickKembali"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
